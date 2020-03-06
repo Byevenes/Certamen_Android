@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFondo"
+    android:paddingHorizontal="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/primerNumero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="@string/primerNumero"
+            android:gravity="right"
+            android:textSize="50dp"
+            android:textColor="@color/colorBlanco">
+        </TextView>
+
+        <TextView
+            android:id="@+id/operacionSimbolo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/operacionSimbolo"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="@color/colorBlanco">
+        </TextView>
+
+        <TextView
+            android:id="@+id/segundoNumero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/segundoNumero"
+            android:gravity="left"
+            android:textSize="50dp"
+            android:textColor="@color/colorBlanco">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonGenerar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonGenerar"
+            android:textSize="30dp"
+            android:textColor="@color/colorBlanco"
+            android:background="@color/colorButtonGenerar"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+        android:id="@+id/ButtonSumar"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:text="@string/ButtonSumar"
+        android:textSize="40dp"
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorButtonSumar"></Button>
+
+        <Button
+            android:id="@+id/ButtonRestar"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/ButtonRestar"
+            android:textSize="40dp"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorButtonRestar"></Button>
+        <Button
+            android:id="@+id/ButtonLimpiar"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/ButtonLimpiar"
+            android:textSize="40dp"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorButtonLimpiar"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/ButtonMultiplicar"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/ButtonMultiplicar"
+            android:textSize="40dp"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorButtonMultiplicar"></Button>
+
+        <Button
+            android:id="@+id/ButtonDividir"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/ButtonDividir"
+            android:textSize="40dp"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorButtonDividir"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ButtonPar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonPar"
+            android:textSize="30dp"
+            android:textColor="@color/colorBlanco"
+            android:background="@color/colorButtonPar"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ButtonPrimo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonPrimo"
+            android:textSize="30dp"
+            android:textColor="@color/colorBlanco"
+            android:background="@color/colorButtonPrimo"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@color/colorTextResultado">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TextResultado"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanco"></TextView>
+        <TextView
+            android:id="@+id/ResultadoFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ResultadoFinal"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanco"
+            android:background="@color/colorResultadoFinal"></TextView>
+        <TextView
+            android:id="@+id/TextResultadoParPrimo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TextResultadoParPrimo"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanco"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

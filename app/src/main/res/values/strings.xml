@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Certamen_Android</string>
+    <string name="primerNumero">50</string>
+    <string name="operacionSimbolo">"?"</string>
+    <string name="segundoNumero">50</string>
+    <string name="ButtonGenerar">GENERAR NÚMEROS</string>
+    <string name="ButtonSumar">+</string>
+    <string name="ButtonRestar">-</string>
+    <string name="ButtonMultiplicar">X</string>
+    <string name="ButtonDividir">/</string>
+    <string name="ButtonLimpiar">C</string>
+    <string name="ButtonPar">¿RESULTADO ES PAR?</string>
+    <string name="ButtonPrimo">¿RESULTADO ES PRIMO?</string>
+    <string name="TextResultado">RESULTADO</string>
+    <string name="ResultadoFinal">2500</string>
+    <string name="TextResultadoParPrimo">ES PAR</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorFondo">#CDC6AE</color>
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="colorButtonGenerar">#F57B51</color>
+    <color name="colorButtonSumar">#EE6352</color>
+    <color name="colorButtonRestar">#59CD90</color>
+    <color name="colorButtonLimpiar">#3FA7D6</color>
+    <color name="colorButtonMultiplicar">#FAC05E</color>
+    <color name="colorButtonDividir">#F79D84</color>
+    <color name="colorButtonPrimo">#725AC1</color>
+    <color name="colorButtonPar">#85CB33</color>
+    <color name="colorTextResultado">#D81E5B</color>
+    <color name="colorResultadoFinal">#751F83</color>
+</resources>
